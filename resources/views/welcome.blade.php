@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
 </head>
-<body>
+<body class="bg-gray-800 bg-opacity-20">
   <!-- ========== HEADER ========== -->
     <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 sm:py-0 dark:bg-gray-800 dark:border-gray-700">
     <nav class="relative max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
@@ -112,17 +112,29 @@
     </nav>
     </header>
     <!-- ========== END HEADER ========== -->
+
 <main>
-
-   <div>
-        <div class="p-5 w-80">
-            <img src="img/images.jpg" alt="img">
+    <div class="w-full grid grid-cols-4 md:grid-cols-5 gap-2 p-2">
+        <div class="bg-yellow-500 h-[320px] w-full col-span-4 md:col-span-3">
+            <img src="img/images.jpg" alt="" class="w-full h-[320px] object-cover">
         </div>
-
-        <div>
-            <img src="img/images.jpg" alt="img">
+        <div class="bg-gray-500 h-[320px] w-full col-span-2 md:col-span-1">
+            <img src="img/images.jpg" alt="" class="w-full h-[320px] object-cover">
         </div>
-   </div>
+        <div class="bg-red-500 h-[320px] w-full col-span-2 md:col-span-1">
+            <img src="img/images.jpg" alt="" class="w-full h-[320px] object-cover">
+        </div>
+        <!--  -->
+        <div class="bg-red-600 h-[320px] w-full col-span-2 md:col-span-1">
+            <img src="img/images.jpg" alt="" class="w-full h-[320px] object-cover">
+        </div>
+        <div class="bg-emerald-600 h-[320px] w-full col-span-2 md:col-span-1">
+            <img src="img/images.jpg" alt="" class="w-full h-[320px] object-cover">
+        </div>
+        <div class="bg-yellow-600 h-[320px] w-full col-span-4 md:col-span-3">
+            <img src="img/images.jpg" alt="" class="w-full h-[320px] object-cover">
+        </div>
+    </div>
 
 </main>
 </body>
